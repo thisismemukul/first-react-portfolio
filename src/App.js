@@ -24,12 +24,12 @@ const App = () => {
     <>
     <Navbar />
       <Switch>
-        <Route exact path='/home' component={Home} />
-        <Route exact path='/service' component={Service} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/contact' component={Contact} />
-        <Route exact path='/error' component={Error404} />
-        <Redirect from='/' to='/home'  />
+        <Route exact path='/react-portfolio/home' component={Home} />
+        <Route exact path='/react-portfolio/service' component={Service} />
+        <Route exact path='/react-portfolio/about' component={About} />
+        <Route exact path='/react-portfolio/contact' component={Contact} />
+        <Route exact path='/react-portfolio/error' component={Error404} />
+        <Redirect from='/' to='/react-portfolio/home'  />
       </Switch>
     <Footer />
     </>

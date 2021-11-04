@@ -14,10 +14,10 @@ const NavbarComp = () => {
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                         >
-                            <NavLink exact className="navbarDiv" activeClassName="active" to='/home'>Home</NavLink>
-                            <NavLink exact className="navbarDiv" activeClassName="active" to='/service'>Services</NavLink>
-                            <NavLink exact className="navbarDiv" activeClassName="active" to='/about'>About</NavLink>
-                            <NavLink exact className="navbarDiv" activeClassName="active" to='/contact'>Contact</NavLink>
+                            <NavLink exact className="navbarDiv" activeClassName="active" to='/react-portfolio/home'>Home</NavLink>
+                            <NavLink exact className="navbarDiv" activeClassName="active" to='/react-portfolio/service'>Services</NavLink>
+                            <NavLink exact className="navbarDiv" activeClassName="active" to='/react-portfolio/about'>About</NavLink>
+                            <NavLink exact className="navbarDiv" activeClassName="active" to='/react-portfolio/contact'>Contact</NavLink>
                         </Nav>
                         <Form className="d-flex">
                             <FormControl

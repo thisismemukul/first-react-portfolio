@@ -12,9 +12,9 @@ const About = () => {
             name=" with 3+ Years of Experience" 
             para="I've worked remotely on projects for leading brands, and startups.I care about creating world-class, and useful products that help people and make a difference.I can be as involved in your project as you need me to be, from the seed of the idea, creative direction, web development, graphic design, and even the back-end development." 
             btnFirst="Home"
-            toFirst="/home"
+            toFirst="/react-portfolio/home"
             btnSecond="Contact Me"  
-            toSecond="/contact"
+            toSecond="/react-portfolio/contact"
             imgSrc={aboutImg} 
         />
         </>

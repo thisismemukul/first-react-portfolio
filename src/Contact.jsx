@@ -12,9 +12,9 @@ const Contact = () => {
             <>
                 <section className="text-center mx-auto ">
                     <h3><code>Thanks for approaching!</code></h3>
-                    <NavLink exact className="btnLink" to='/home'>Home </NavLink>
-                    <NavLink exact className="btnLink" to='/service'>Services</NavLink>
-                    <NavLink exact className="btnLink" to='/about'>About</NavLink>
+                    <NavLink exact className="btnLink" to='/react-portfolio/home'>Home </NavLink>
+                    <NavLink exact className="btnLink" to='/react-portfolio/service'>Services</NavLink>
+                    <NavLink exact className="btnLink" to='/react-portfolio/about'>About</NavLink>
                 </section>
             </>
         );
