@@ -29,7 +29,7 @@ const App = () => {
         <Route exact path='/react-portfolio/about' component={About} />
         <Route exact path='/react-portfolio/contact' component={Contact} />
         <Route exact path='/react-portfolio/error' component={Error404} />
-        <Redirect from='/' to='/react-portfolio/home'  />
+        <Redirect from='*' to='/react-portfolio/error'  />
       </Switch>
     <Footer />
     </>
